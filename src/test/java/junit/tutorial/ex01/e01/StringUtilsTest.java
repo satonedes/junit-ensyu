@@ -31,7 +31,6 @@ class StringUtilsTest {
 	void tearDown() throws Exception {
 		System.out.println("AfterEachが呼ばれました");
 	}
-
 	@Test
 	@DisplayName("aaaの時aaa")
 	void testToSnakeCase1() {

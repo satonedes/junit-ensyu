@@ -31,7 +31,6 @@ class NumberUtilsTest {
 	void tearDown() throws Exception {
 		System.out.println("AfterEachが呼ばれました");
 	}
-	
 	@Test
 	void test1() {
 		boolean result = num.isEven(10);
